@@ -1,8 +1,8 @@
 {
-    "coin": "ducknote",
-    "symbol": "XDN",
+    "coin": "favcoin",
+    "symbol": "FAV",
     "coinUnits": 100000000,
-    "coinDifficultyTarget": 240,
+    "coinDifficultyTarget": 120,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "ddehi53dwGSBEXdhTYtga2R3fS4y9hRz4YHAsLABJpH75yUd5EDQmuL3yDBj1mG6MMeDfydY9vp4zFVVNQ99FTYq2PpsFJP2y",
+        "poolAddress": "fySihX2c7EdVRdvvt1TpcZUaALHYQRn7fLvPTK7kAXDYDe4D6rKUAfYJuNrHmgW42JZUJrxHrkmq2c2cJ6SG8BKX1xdXhjgRu",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -100,17 +100,17 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "test2018"
     },
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 42081
+        "port": 17236
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8082
+        "port": 18236
     },
 
     "redis": {

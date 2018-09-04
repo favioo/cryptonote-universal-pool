@@ -126,6 +126,18 @@ git clone https://github.com/fancoder/cryptonote-universal-pool.git pool
 cd pool
 npm update
 ```
+In any case of npm problems, pls perform:
+
+````bash
+sudo npm cache clean -f
+sudo npm install -g n
+````
+
+In any case of Certificate issues when performing npm update please use:
+
+```bash
+npm set ca null
+````
 
 #### 2) Configuration
 
