@@ -1,4 +1,4 @@
-var api = "https://pool.favioo.com:1117";
+var api = "https://pool.favioo.com:8117";
 
 var poolHost = "pool.favioo.com";
 
