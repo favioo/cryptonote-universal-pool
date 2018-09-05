@@ -92,6 +92,8 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 Usage
 ===
 
+Please follow these lines always from top!
+
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
 * [Node.js](http://nodejs.org/) v0.10+ ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
@@ -292,13 +294,13 @@ Explanation for each field:
     "password": "test" //password required for admin stats
 },
 
-/* Coin daemon connection details. */
+/* Coin daemon connection details. RPC Port!!*/
 "daemon": {
     "host": "127.0.0.1",
     "port": 18081
 },
 
-/* Wallet daemon connection details. */
+/* Wallet daemon connection details. RPC Port!! */
 "wallet": {
     "host": "127.0.0.1",
     "port": 8082
