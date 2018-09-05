@@ -1,17 +1,17 @@
-var api = "http://poolhost.com:1117";
+var api = "https://pool.favioo.com:1117";
 
-var poolHost = "poolhost.com";
+var poolHost = "pool.favioo.com";
 
-var irc = "irc.freenode.net/#poolhost";
+var irc = "irc.freenode.net/#favcoin";
 
-var email = "support@poolhost.com";
+var email = "support@favioo.com";
 
-var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
+var cryptonatorWidget = ["XMR-BTC", "BTC-USD", "BTC-EUR"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
+var blockchainExplorer = "http://chainradar.com/XMR/block/{id}";
 
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
+var transactionExplorer = "http://chainradar.com/XMR/transaction/{id}";
 
 var themeCss = "themes/default-theme.css";
